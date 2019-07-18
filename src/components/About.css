@@ -1,0 +1,132 @@
+@font-face {
+	font-weight: lighter;
+	font-family: iyekan;
+	src: url("fonts/iranyekan-light.woff2") format("woff2")
+}
+@font-face {
+	font-weight: normal;
+	font-family: iyekan;
+	src: url("fonts/iranyekan-regular.woff2") format("woff2")
+}
+@font-face {
+	font-weight: bold;
+	font-family: iyekan;
+	src: url("fonts/iranyekan-bold.woff2") format("woff2")
+}
+.mycontainer {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+	.mycontainer {
+	  max-width: 540px;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	.mycontainer {
+	  max-width: 720px;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.mycontainer {
+	  max-width: 960px;
+	}
+  }
+  
+  @media (min-width: 1200px) {
+	.mycontainer {
+	  max-width: 1140px;
+	}
+  }
+
+body {direction: rtl; font-weight: normal; font-family: iyekan;}
+
+.aboutStart {text-align: center;padding-top: 5rem;}
+
+
+.aboutStart h1 {color: #253858;font-weight: bold;font-family: iyekan; font-size: 2.5rem; margin-top: 14rem; text-align: right}
+.aboutStart p {font-weight: normal;font-family: iyekan; color: #42526e;max-width: 70%;margin-top	: 1.5rem;font-size: 1.2rem;text-align: right}
+.aboutStart button {font-weight: bold;font-family: iyekan;}
+.homeSepDiv {margin-bottom: 0;max-height: 120px;}
+
+.BitbucketServer {padding: 5rem 0}
+.BitbucketServer h4 {font-size:1.7rem; font-family: iyekan;font-weight: bold;color: #42526E;padding-top: 0}
+.BitbucketServer ul {
+	padding-right: 0;
+	color: #42526E;
+    list-style: disc inside;
+}
+.BitbucketServer li {color: #42526E;max-width: 65%;margin-bottom: 0.5rem;}
+.BitbucketServer button {margin-top: 2rem !important}
+
+.ServerFeature {padding: 5rem 0}
+.ServerFeatureText {padding: 4.7rem 0}
+.ServerFeatureImg {text-align: center}
+.ServerFeatureText h1 {font-size:2rem; font-family: iyekan;font-weight: bold;color: #42526E;padding-top: 0}
+.ServerFeatureText p {font-weight: normal;font-family: iyekan; color: #42526e;max-width: 70%;margin-top	: 1.5rem;font-size: 1rem;text-align: right}
+.ServerFeatureImg img {height: 350px;}
+
+.gitThatGrows {text-align: center; padding: 3rem 0}
+.gitThatGrows h4 {font-size:2rem; font-family: iyekan;font-weight: bold;color: #42526E;padding-top: 0}
+.gitThatGrows p {font-weight: normal;font-family: iyekan; color: #42526e;margin-top	: 1rem;font-size: 1rem;text-align: center; margin-bottom: 2rem}
+
+.gitIconLeft {float: right;margin-left: 16px;}
+.gitIconLeft img {width: 40px;margin-top: 10px;}
+
+.gitTextRight {padding-right: 42px;padding-left: 60px;}
+.gitTextRight h4 {font-size: 1.5rem;font-family: iyekan;font-weight: bold;color: #42526E;padding-top: 0;text-align: right;margin: 5px;}
+.gitTextRight p {font-weight: normal;font-family: iyekan;color: #42526e;margin-top: 0.5rem;font-size: 0.9rem;text-align: right;margin-bottom: 2rem;padding-right: 14px;}
+
+.AboutBottom {padding: 5rem 0}
+.AboutBottom h1 {color: #253858;font-weight: bold;font-family: iyekan; font-size: 2rem; text-align: center}
+.AboutBottom p {font-weight: normal;font-family: iyekan; color: #42526e; margin-top: 1.5rem; font-size: 1rem;text-align: center}
+
+.AboutBottomMother {margin-top: 3rem;}
+
+.AboutBottomChild {text-align: right}
+.AboutBottomChild img {height: 30px;}
+.AboutBottomChild h1 {
+    color: #253858;
+    font-weight: bold;
+    font-family: iyekan;
+    font-size: 1.4rem;
+    text-align: right;
+    margin-top: 0.7rem;
+}
+.AboutBottomChild p {
+    font-weight: normal;
+    font-family: iyekan;
+    color: #42526e;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+	text-align: right;
+}
+
+.AboutBottomChild:nth-child(even) {padding-left: 30px !important;}
+.AboutBottomChild:nth-child(odd) {padding-right: 30px !important;}
+
+.bannerSection {
+
+    padding: 70px 0;
+    background-image: url('img/splunk.png');
+    width: 80%;
+    margin: 0 auto 5rem;
+}
+.bannerText {
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 0 0;
+    line-height: 1.5;
+    max-width: 55%;
+
+}
+.bannerTextPerson {color: #fff;font-weight: bold;font-size: 1rem;padding: 20px 0 0;line-height: 1.5;text-align: right;max-width: 34%;}
+.bannerTextPerson img {width: 100px;margin-top: 20px;}
