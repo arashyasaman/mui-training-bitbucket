@@ -69,8 +69,6 @@ body {direction: rtl; font-weight: normal; font-family: iyekan;}
 .homeStart h6 {font-weight: bold;font-family: iyekan; text-align: center; color: #42526e;max-width: 70%;margin: 0 auto;font-size: 1.2rem;}
 .homeStart button {font-weight: bold;font-family: iyekan; text-align: center}
 
-.homeSepDiv {margin-bottom: 0;max-height: 120px;}
-
 .homeFeature {margin-top: 3rem;}
 .featureTopItem {text-align: center}
 .featureTopItem img {height: 140px; margin-bottom: 16px;vertical-align: bottom;}

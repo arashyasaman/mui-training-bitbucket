@@ -53,7 +53,6 @@ body {direction: rtl; font-weight: normal; font-family: iyekan;}
 .aboutStart h1 {color: #253858;font-weight: bold;font-family: iyekan; font-size: 2.5rem; margin-top: 14rem; text-align: right}
 .aboutStart p {font-weight: normal;font-family: iyekan; color: #42526e;max-width: 70%;margin-top	: 1.5rem;font-size: 1.2rem;text-align: right}
 .aboutStart button {font-weight: bold;font-family: iyekan;}
-.homeSepDiv {margin-bottom: 0;max-height: 120px;}
 
 .BitbucketServer {padding: 5rem 0}
 .BitbucketServer h4 {font-size:1.7rem; font-family: iyekan;font-weight: bold;color: #42526E;padding-top: 0}
@@ -130,3 +129,6 @@ body {direction: rtl; font-weight: normal; font-family: iyekan;}
 }
 .bannerTextPerson {color: #fff;font-weight: bold;font-size: 1rem;padding: 20px 0 0;line-height: 1.5;text-align: right;max-width: 34%;}
 .bannerTextPerson img {width: 100px;margin-top: 20px;}
+
+.homeSepDiv {margin-bottom: 0;padding-bottom: 0;position: relative;display: block;}
+.homeSepDiv svg {margin-bottom: 0 !important;vertical-align: bottom;}
